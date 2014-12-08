@@ -107,8 +107,7 @@ namespace Quickstart2010
 
 
       /////////////////////////////////////////
-      //Entity ent = mEngine.SceneMgr.CreateEntity("Robot", "robot.mesh");
-      Entity ent = mEngine.SceneMgr.CreateEntity("Head", "ogrehead.mesh");
+      Entity ent = mEngine.SceneMgr.CreateEntity("Robot", "robot.mesh");
 
       // Create the Robot's SceneNode
       SceneNode node = mEngine.SceneMgr.RootSceneNode.CreateChildSceneNode("RobotNode",

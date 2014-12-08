@@ -182,7 +182,7 @@ namespace Quickstart2010.Modules
     {
       // load resource group if it is not yet loaded
       if( !ResourceGroupManager.Singleton.IsResourceGroupLoaded( _groupName ) )
-        //ResourceGroupManager.Singleton.LoadResourceGroup( _groupName )
+        //ResourceGroupManager.Singleton.LoadResourceGroup( _groupName );
           ;
     }
 
